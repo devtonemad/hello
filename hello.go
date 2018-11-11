@@ -14,4 +14,12 @@ func main() {
 
 	fmt.Printf("\n")
 
+	loop()
+
+}
+
+func loop() {
+	for i := 0; i < 10; i++ {
+		fmt.Printf("counter:%v\n", i)
+	}
 }
